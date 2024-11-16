@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/TrongPham1920/CA_CD_02.git'
+                git branch: 'main', url: 'https://github.com/TrongPham1920/CA_CD_02.git'
             }
         }
 
